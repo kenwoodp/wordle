@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    gap: 15px;
+}
+
+.row {
+    flex-direction: row;
+    gap: 15px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.op-row {
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+
+.op-row > div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
